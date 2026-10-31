@@ -29,9 +29,6 @@ urlpatterns = [
     path('admin/', admin.site.urls),
 
 
-    #endpoint para nuestra api(modelos: cliente, categorias, sucursal)
-    path('api/', include('api.urls')),
-
 
     #enpoints de autenticacion jwt
     path('api/token/', TokenObtainPairView.as_view(), name = 'token_obtain_pair'),
