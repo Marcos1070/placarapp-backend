@@ -45,7 +45,7 @@ INSTALLED_APPS = [
     'corsheaders',              #deja pasar las peticiones al front
     'drf_spectacular',           #documentacion automatica de la API
 
-    'api',
+    
 
 ]
 
