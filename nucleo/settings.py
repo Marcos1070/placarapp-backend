@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'logistica',  #nuestra app de logistica marcosf
 
 
     #librerias para la efi:

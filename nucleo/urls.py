@@ -30,7 +30,7 @@ urlpatterns = [
 
 
     #endpoint para nuestra api(modelos: cliente, categorias, sucursal)
-    path('api/', include('api.urls')),
+    #path('api/', include('api.urls')),
 
 
     #enpoints de autenticacion jwt
